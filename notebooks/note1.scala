@@ -11,6 +11,6 @@ val configs = Map(
 // COMMAND ----------
 
 dbutils.fs.mount(
-  source = "abfss://fsname@dlsgen2name.dfs.core.windows.net/",
+  source = "abfss://data@adbstorageaccount.dfs.core.windows.net/",
   mountPoint = "/mnt/data",
   extraConfigs = configs)
